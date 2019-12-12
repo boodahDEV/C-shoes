@@ -14,9 +14,9 @@ void main(){
 
 }
 int recursiva(int n){
-    if ( !f(n)  ){
+    while ( !f(n)  ){
         printf("incide if\n\n");
-        recursiva(g(n));
+        return g(n);
     }
 }
 
