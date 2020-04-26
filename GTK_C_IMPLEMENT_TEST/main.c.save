@@ -30,7 +30,7 @@ static void activate (GtkApplication* app, gpointer user_data)
   g_signal_connect_swapped (button, "clicked", G_CALLBACK (gtk_widget_destroy), window);
 
   gtk_container_add(GTK_CONTAINER (button_box), button);
-  gtk_container_add(GTK_CONTAINER (button_box),button1);
+  gtk_container_add(GTK_CONTAINER (button_box), button1);
   gtk_container_add(GTK_CONTAINER (button_box), button2);
   gtk_container_add(GTK_CONTAINER (button_box), button3);
   gtk_container_add(GTK_CONTAINER (button_box), button4);
